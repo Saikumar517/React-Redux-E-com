@@ -1,15 +1,14 @@
-import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Registration from "./components/Registration/Registration";
 import { Fragment } from "react";
-import ProductPage from "./components/home/ProductPage";
-import NavBar from "./components/home/NavBar";
-import Cart from "./components/home/Cart";
-import MainWebPage from "./components/home/MainWebPage";
-import Error from "./components/home/Error";
-import ProtectedRoute from "./components/home/ProtectedRoute";
+import ProductPage from "./components/Each product/ProductPage";
+import NavBar from "./components/Header/NavBar";
+import Cart from "./components/cart/Cart";
+import MainWebPage from "./components/Main page/MainWebPage";
+import Error from "./components/page not found/Error";
+import ProtectedRoute from "./components/Protected Route/ProtectedRoute";
 import { useSelector } from "react-redux";
-import Footer from "./components/home/Footer";
+import Footer from "./components/Footer/Footer";
 //Importing The components
 
 //adding the Routes to the page by using React-router-dom

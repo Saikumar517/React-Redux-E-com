@@ -2,7 +2,6 @@ import React, { Fragment, useState } from "react";
 import { Alert } from "react-bootstrap";
 import Login from "../Login/Login";
 import { Container, Row, Col } from "react-bootstrap";
-import Footer from "../home/Footer";
 
 //importing the required modules
 

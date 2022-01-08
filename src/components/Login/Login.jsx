@@ -1,8 +1,7 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState } from "react";
 import { Alert, Col, Container, Row } from "react-bootstrap";
-import MainWebPage from "../home/MainWebPage";
+import MainWebPage from "../Main page/MainWebPage";
 import { useHistory } from "react-router-dom";
-import Footer from "../home/Footer";
 import { loggeInActions } from "../reducers/LoginHide";
 import { useSelector, useDispatch } from "react-redux";
 
